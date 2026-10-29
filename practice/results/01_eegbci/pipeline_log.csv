@@ -1,0 +1,9 @@
+subject,condition,bad_channels,ica_excluded,windows_kept,windows_dropped
+1,eyes_open,['T10'],"[np.int64(0), np.int64(1)]",24,5
+1,eyes_closed,['T10'],[np.int64(3)],26,3
+2,eyes_open,[],"[np.int64(0), np.int64(1)]",21,8
+2,eyes_closed,[],[np.int64(6)],29,0
+3,eyes_open,['CP6'],"[np.int64(0), np.int64(1), np.int64(2)]",26,3
+3,eyes_closed,"['C4', 'CP6', 'T10']",[np.int64(5)],26,3
+4,eyes_open,['FT8'],"[np.int64(0), np.int64(1)]",21,8
+4,eyes_closed,[],[np.int64(36)],11,18

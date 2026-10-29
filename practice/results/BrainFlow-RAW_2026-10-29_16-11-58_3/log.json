@@ -1,0 +1,16 @@
+{
+  "n_channels": 2,
+  "sfreq": 250.0,
+  "duration_s": 155.0,
+  "has_positions": true,
+  "bad_channels": [],
+  "reference": "as recorded (too few channels for average)",
+  "ica_excluded": "skipped",
+  "blinks": 48,
+  "blink_rate_per_min": 18.6,
+  "clean_segments": 192,
+  "segments_dropped_ptp": 0,
+  "clean_time_frac": 0.62,
+  "windows_kept": 66,
+  "windows_too_contaminated": 10
+}

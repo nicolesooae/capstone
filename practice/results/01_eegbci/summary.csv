@@ -1,0 +1,4 @@
+measure,result,target,pass
+subjects with alpha increase (%),100.0,>= 90,True
+Cohen's d_z (log alpha),4.25,>= 0.8,True
+windows kept (%),79.3,>= 80,False
