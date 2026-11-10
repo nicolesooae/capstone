@@ -1,0 +1,2 @@
+start_s,end_s,quality_median,clipped_fraction,detected_peaks,mean_hr_bpm,mean_interval_ms,prv_rmssd_ms,prv_sdnn_ms,pulse_amplitude_counts,accepted,reason
+0.0,60.0,0.99,0.0,79,,,,,,False,possible pulse-detection artifact; inspect peaks

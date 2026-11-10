@@ -1,0 +1,21 @@
+subject,start_s,end_s,quality_median,clipped_fraction,detected_peaks,mean_hr_bpm,mean_interval_ms,prv_rmssd_ms,prv_sdnn_ms,pulse_amplitude_counts,accepted,reason
+subject_01,0.0,60.0,0.966,,90,90.9323116219668,659.8314606741573,50.91492458459057,35.87739094188332,11.341326933149212,True,passes preliminary automated checks
+subject_02,0.0,60.0,0.992,,100,101.1063829787234,593.4343434343434,29.66651379613598,28.92324875765473,11.225040020612688,True,passes preliminary automated checks
+subject_03,0.0,60.0,0.989,,107,,,,,,False,possible pulse-detection artifact; inspect peaks
+subject_04,0.0,60.0,0.992,,75,74.9367088607595,800.6756756756756,58.73961581210269,40.11391590878667,10.481553525134748,True,passes preliminary automated checks
+subject_05,0.0,60.0,0.979,,112,,,,,,False,possible pulse-detection artifact; inspect peaks
+subject_06,0.0,60.0,0.993,0.0,89,89.37790943715616,671.3068181818181,35.25359686548343,25.858748916117197,20.467957200070888,True,passes preliminary automated checks
+subject_07,0.0,60.0,0.954,,58,,,,,,False,possible pulse-detection artifact; inspect peaks
+subject_08,0.0,60.0,0.997,,78,79.79274611398964,751.9480519480519,24.33321316961438,20.18265025102404,26.764345501020745,True,passes preliminary automated checks
+subject_09,0.0,60.0,0.991,,88,,,,,,False,possible pulse-detection artifact; inspect peaks
+subject_10,0.0,60.0,0.964,,83,84.0666381888082,713.719512195122,83.1479419283098,48.29699128993796,8.840099433805783,True,passes preliminary automated checks
+subject_11,0.0,60.0,0.996,,76,76.98887938408896,779.3333333333334,43.20363473197659,27.98809270624444,23.53122909805374,True,passes preliminary automated checks
+subject_12,0.0,60.0,0.992,,81,81.25264494286924,738.4375,79.95251755442814,48.87075275339581,16.806308583245105,True,passes preliminary automated checks
+subject_13,0.0,60.0,0.992,0.0,82,82.30313293818797,729.0123456790124,64.04344228724749,43.74228327006961,13.559861234632194,True,passes preliminary automated checks
+subject_14,0.0,60.0,0.974,,95,,,,,,False,possible pulse-detection artifact; inspect peaks
+subject_15,0.0,60.0,0.99,0.0,79,,,,,,False,possible pulse-detection artifact; inspect peaks
+subject_16,0.0,60.0,0.961,0.0,91,,,,,,False,implausible/missed pulse intervals; inspect peaks
+subject_17,0.0,60.0,0.99,0.0,87,88.35616438356165,679.0697674418604,66.36574240303413,50.126379270488016,8.020634897411089,True,passes preliminary automated checks
+subject_19,0.0,60.0,0.992,,108,109.69671080734727,546.9626168224299,27.898062420040084,25.631247598683085,21.070429756789583,True,passes preliminary automated checks
+subject_20,0.0,60.0,0.966,,86,86.84546615581098,690.8823529411765,99.66461615982732,65.67495930803494,12.342243431931246,True,passes preliminary automated checks
+subject_21,0.0,60.0,0.989,,72,73.41663076260232,817.2535211267606,44.21942042651784,42.592661443646826,10.418419871145645,True,passes preliminary automated checks

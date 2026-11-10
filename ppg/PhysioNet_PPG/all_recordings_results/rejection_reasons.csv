@@ -1,0 +1,12 @@
+activity,reason,windows
+run,implausible/missed pulse intervals; inspect peaks,11
+run,low waveform template quality,29
+run,more than 5% poor or missing template quality in variability window,2
+run,possible pulse-detection artifact; inspect peaks,61
+sit,implausible/missed pulse intervals; inspect peaks,7
+sit,more than 5% poor or missing template quality in variability window,1
+sit,possible pulse-detection artifact; inspect peaks,34
+walk,implausible/missed pulse intervals; inspect peaks,25
+walk,low waveform template quality,73
+walk,more than 5% poor or missing template quality in variability window,4
+walk,possible pulse-detection artifact; inspect peaks,35

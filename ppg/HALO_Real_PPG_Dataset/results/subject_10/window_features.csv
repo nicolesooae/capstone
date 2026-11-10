@@ -1,0 +1,2 @@
+start_s,end_s,quality_median,clipped_fraction,detected_peaks,mean_hr_bpm,mean_interval_ms,prv_rmssd_ms,prv_sdnn_ms,pulse_amplitude_counts,accepted,reason
+0.0,60.0,0.964,,83,84.0666381888082,713.719512195122,83.1479419283098,48.29699128993796,8.840099433805783,True,passes preliminary automated checks
