@@ -7,9 +7,10 @@ our own device recordings later in capstone pipeline.
 
 Assumption for this phase: full signal acquisition, no dropouts.
 
-Usage (from a notebook):
+Usage (from a notebook or script outside eeg/pipeline/, see pipeline/README.md):
+    import sys; sys.path.insert(0, "<path to>/eeg/pipeline")
     import preproc
-    raw = preproc.load_eegbci(subject=1, run=1)
+    raw = preproc.load_eegbci(subject=1, run=1, path="<path to>/eeg_data/")
     clean, feats, log = preproc.run_pipeline(raw, subject=1, condition="eyes_open")
 
 

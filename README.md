@@ -1,13 +1,6 @@
-will clean up structure soon. everything lives in practice for now - due for spring clean.
+# Capstone
 
-for now:
-
-**preproc.py** is preprocessing pipeline main
-the **eegbci sanity ** script is the feasibility test
-**brainflow_spectral** is the cyton board validation (trying to see spectral features from short recording we did thursday)
-
-**ignore mnepreproc.ipynb **that was the first pass learning from september
-
-the **results folder** has results from feasibility test, and from 2 seperate eeg brainflow recordings we did through the cyton board on Thursday
-
-**eeg_data folder** has the mne EEGBCI dataset from mne used in feasibility test
+| Folder | Contents |
+| --- | --- |
+| [`eeg/`](eeg/) | EEG preprocessing pipeline, MNE/EEGBCI feasibility test, and OpenBCI Cyton (BrainFlow) validation. Start with [`eeg/README.md`](eeg/README.md). |
+| [`ppg/`](ppg/) | PPG / pulse-rate-variability analysis, sensor firmware and recorders. See [`ppg/README.md`](ppg/README.md). |

@@ -7,10 +7,10 @@ board channel (package num, EEG, accel, ..., timestamp, marker), tab-separated,
 no header, EEG in µV. Which columns are EEG and the sampling rate depend on the
 board, so pass --board (or --sfreq + --eeg-cols for anything else).
 
-Usage:
-    python brainflow_spectral.py recording.csv --board 0 \
+Usage (from eeg/validation_cyton_brainflow/):
+    python brainflow_spectral.py recordings/recording.csv --board 0 \
         --ch-names Fp1 Fp2 C3 C4 P7 P8 O1 O2
-    python brainflow_spectral.py recording.csv --sfreq 250 --eeg-cols 1 2 3 4 \
+    python brainflow_spectral.py recordings/recording.csv --sfreq 250 --eeg-cols 1 2 3 4 \
         --ch-names Fz Cz Pz Oz --notch 60
 
 Outputs go to results/<csv name>/: features.csv, summary.csv, log, and PNGs.
@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -27,7 +28,9 @@ import mne
 import numpy as np
 import pandas as pd
 
-import preproc
+# shared preprocessing pipeline lives in eeg/pipeline/
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "pipeline"))
+import preproc  # noqa: E402
 
 # Board defaults if brainflow isn't installed: (sfreq, EEG column indices).
 # With brainflow installed, BoardShim is the source of truth.
